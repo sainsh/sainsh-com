@@ -1,8 +1,27 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Aladin');
+
+
+.container{
+    font-family: aladin;
 }
 
-a {
-  color: #00B7FF;
+body{
+    background-color: black;
+}
+
+#title{
+  color: white;
+  text-align: center
+}
+
+#background{
+  background-image: url('/images/saisjo.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 100vh;
+}
+#text{
+  text-align: center;
+  color: white;
+  font-size: 40px
 }

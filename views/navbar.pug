@@ -1,0 +1,15 @@
+a.navbar-brand(href='/') Sainsh.com
+button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation')
+  span.navbar-toggler-icon
+#navbarNav.collapse.navbar-collapse
+  ul.navbar-nav
+    li.nav-item
+      a#index.nav-link(href='/') About Me
+    li.nav-item.dropdown
+       a#navbarDropdown.nav-link.dropdown-toggle(href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") Pathfinder Campaign
+       .dropdown-menu(aria-labelledby="navbarDropdown")
+         a.dropdown-item(href="/pathfinder/world") World
+         a.dropdown-item(href="/pathfinder/characters") Characters
+         a.dropdown-item(href="/pathfinder/religion") Religion
+    li.nav-item
+      a#portfolio.nav-link(href='/portfolio') Portfolio
