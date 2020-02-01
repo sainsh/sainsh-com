@@ -1,0 +1,23 @@
+extends ../layout
+
+block content
+    #background
+        .row
+            .col-2
+            .col-8
+                h1#title= title
+            .col-2
+        .row
+            .col-2
+            .col-8
+                button#lasse.btn.btn-info.textButton.margin(type="button") Lasse
+                button#stoffer.btn.btn-info.textButton.margin(type="button") Stoffer
+                button#hp.btn.btn-info.textButton.margin(type="button") HP
+                button#kath.btn.btn-info.textButton.margin(type="button") Kath
+                button#marcus.btn.btn-info.textButton.margin(type="button") Marcus
+                button#gede.btn.btn-info.textButton.margin(type="button") Gede
+            .col-2
+        .row
+            .col-12
+                #text
+                    p.textField

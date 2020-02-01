@@ -6,10 +6,23 @@ html
     script(src="/javascripts/bootstrap.bundle.min.js")
     link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
-    
+
   body
     .container.listing-reg
       nav(id=nav class="navbar navbar-expand-sm navbar-dark bg-dark")
         include navbar.pug
       block content
       
+  script.
+      $(".textButton").click(function(){
+
+        $.get(`/text/${this.id}.txt`, function(result){
+            if(result == 'ON'){
+                alert('ON')
+            } else if(result == 'OFF'){
+                alert('OFF');
+            } else{
+                $(".textField").html(`${result}`);
+            }
+        });
+      });

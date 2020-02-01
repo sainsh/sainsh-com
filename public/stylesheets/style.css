@@ -25,3 +25,9 @@ body{
   color: white;
   font-size: 40px
 }
+.margin{
+  margin: 10px;
+}
+.textButton{
+  font-size: 20px;
+}
