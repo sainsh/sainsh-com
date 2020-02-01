@@ -11,7 +11,8 @@ html
     .container.listing-reg
       nav(id=nav class="navbar navbar-expand-sm navbar-dark bg-dark")
         include navbar.pug
-      block content
+      #background
+        block content
       
   script.
       $(".textButton").click(function(){
