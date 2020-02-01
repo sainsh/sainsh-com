@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Aladin');
 
 
-.container{
-    font-family: aladin;
-}
-
 body{
     background-color: black;
+    font-family: aladin;
 }
 
 #title{
@@ -17,17 +14,21 @@ body{
 #background{
   background-image: url('/images/saisjo.jpg');
   background-repeat: no-repeat;
-  background-size: 200%;
+  background-size: 100%;
   min-height: 100vh;
 }
 #text{
   text-align: center;
   color: white;
-  font-size: 40px
+  font-size: 30px
 }
 .margin{
   margin: 10px;
 }
 .textButton{
-  font-size: 20px;
+  font-size: 25px;
+}
+.flex-justify-center{
+  display: flex;
+  justify-content: center ;
 }
